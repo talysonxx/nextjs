@@ -5,4 +5,5 @@ https://nodejs.org/pt
 
 - on termianl, write
 npx create-next-app@latest
+npm run dev
 
