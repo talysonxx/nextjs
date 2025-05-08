@@ -1,0 +1,36 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f0f0f0, #d0d0d0);
+    text-align: center;
+}
+
+.title {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #ff4d4f;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.button {
+    background-color: #0070f3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0059c1;
+}
